@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Poppins:ital,wght@0,100;0,200;0,600;1,300;1,400&display=swap');
+
+*{
+  font-family: 'Poppins' sans-serif;
+  font-weight: bold;
+}   
+
+body {
+  background: #3e3d3d;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #4a4b55, #898486);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #40414a, #725c63);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.container {
+  margin: 100px 0 0 200px;
+}
+
+.row {
+  width: 100%;
+  height: 60px;
+}
+
+.one,
+.two,
+.three,
+.four,
+.five {
+  margin: 10px 0 0 0;
+}
+
+button {
+  color: black;
+  font-weight: 500;
+  width: 55px;
+  height: 55px;
+  border: none;
+  background: rgb(214, 214, 214);
+  box-shadow: 0 0 10px #333232, 0 0 40px #2d2424, 0 0 80px #565256;
+
+  font-size: 15px;
+  margin-left: 5px;
+  outline: none;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 20%;
+}
+button:active {
+  box-shadow: 1px 1px 2px #990707, 1px 1px 2px #fc2a2a;
+}
+
+.print {
+  width: 85px;
+  border-radius: 10px;
+}
+
+.back {
+  width: 148px;
+  border-radius: 10px;
+}
+
+.tab {
+  width: 115px;
+  border-radius: 10px;
+}
+
+.slace {
+  width: 90px;
+  border: 10px;
+}
+
+.cap {
+  width: 96px;
+  border-radius: 10px;
+}
+
+.enter-btn {
+  width: 109px;
+  border-radius: 10px;
+}
+
+.shift {
+  width: 135px;
+  border-radius: 10px;
+ 
+}
+
+.last {
+  width: 56px;
+  border-radius: 10px;
+}
+
+.space {
+  width: 398px;
+  border-radius: 10px;
+
+}
+
+
